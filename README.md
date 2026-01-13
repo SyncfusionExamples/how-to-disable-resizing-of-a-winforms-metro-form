@@ -1,9 +1,10 @@
-# How to disable resizing of a WinForms MetroForm
+# How to Disable Resizing of a WinForms MetroForm?
 
 This sample illustrates how to disable resizing of [WinForms MetroForm](https://www.syncfusion.com/winforms-ui-controls/metroform).
 
-In `MetroForm`, user can change the size of the form dynamically by using the resizing cursor that displayed when hovering the mouse on the form border. Resizing of the form can be disabled by setting the [FormBorderStyle](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.form.formborderstyle?view=windowsdesktop-7.0&viewFallbackFrom=net-5.0) property of the form to [FixedDialog](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.formborderstyle?view=windowsdesktop-7.0#fields), [FixedSingle](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.formborderstyle?view=windowsdesktop-7.0#fields), or [Fixed3D](https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.formborderstyle?view=windowsdesktop-7.0#fields).
+In [MetroForm](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Windows.Forms.MetroForm.html), user can change the size of the form dynamically by using the resizing cursor that displayed when hovering the mouse on the form border. Resizing of the form can be disabled by setting the `FormBorderStyle` property of the form to `FixedDialog`, `FixedSingle`, or `Fixed3D`.
 
+#### C#
 ``` csharp
 public Form1()
 {
@@ -11,6 +12,8 @@ public Form1()
     this.FormBorderStyle = FormBorderStyle.FixedSingle; // OR FormBorderStyle.FixedDialog OR FormBorderStyle.Fixed3D
 }
 ```
+
+Take a moment to peruse the WinForms [MetroForm - Getting Started](https://help.syncfusion.com/windowsforms/metro-form/getting-started) documentation, where you can find about MetroForm features with code examples.
 
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
